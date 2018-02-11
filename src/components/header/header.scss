@@ -1,0 +1,44 @@
+.head {
+    height: 5%;
+    top: 0;
+    width: 100%;
+    background-color: rgb(35, 43, 65);
+    position:relative;
+    display: inline-flex;
+    .menu-btn {
+        display:flex;
+        width: 5%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(8, 136, 134,0.1);
+        cursor: pointer;
+        transition: background-color 0.5s;
+        i {
+            color: rgba(18, 18, 18, 0.7);
+            transition: color 0.5s;
+        }
+        &:hover{
+            background-color: rgba(8, 136, 134,1);
+            i {
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+    }
+    .profile{
+        width:20%; height:100%;
+        right:0;
+        position:absolute;
+        padding-top:15%;
+        input{
+            width:50%;
+            height:60%;
+            outline:none;
+            border:none;
+            // border:1px solid rgba(255,255,255,0.1);
+            background-color:rgba(222, 222, 222, 0.08);
+            color:rgba(255,255,255,0.7);
+        }
+    }
+}

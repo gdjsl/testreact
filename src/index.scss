@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/md.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    /* fallback */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Calibri';
+        background-color: rgb(27, 36, 56);
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        /* fallback */
+        #root {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+    }
+    .test-g {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
